@@ -1,0 +1,30 @@
+{
+  "name": "typescript-json-schema-validate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jest.config.js",
+  "dependencies": {
+    "ajv": "^6.10.2",
+    "jest": "^24.9.0",
+    "ts-node": "^8.4.1",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.4",
+    "typescript-json-schema": "^0.40.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "schema": "ts-node ./src/utils/jsc.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonformeli/typescript-json-schema-validate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moonformeli/typescript-json-schema-validate/issues"
+  },
+  "homepage": "https://github.com/moonformeli/typescript-json-schema-validate#readme"
+}
