@@ -2,6 +2,18 @@ export default {
   "type": "object",
   "properties": {
     "student": {
+      "$ref": "#/definitions/StudentInterface"
+    },
+    "teacher": {
+      "$ref": "#/definitions/TeacherInterface"
+    }
+  },
+  "required": [
+    "student",
+    "teacher"
+  ],
+  "definitions": {
+    "StudentInterface": {
       "type": "object",
       "properties": {
         "name": {
@@ -19,7 +31,7 @@ export default {
         "name"
       ]
     },
-    "teacher": {
+    "TeacherInterface": {
       "type": "object",
       "properties": {
         "name": {
@@ -42,9 +54,5 @@ export default {
       ]
     }
   },
-  "required": [
-    "student",
-    "teacher"
-  ],
   "$schema": "http://json-schema.org/draft-07/schema#"
 }

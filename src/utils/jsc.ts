@@ -3,7 +3,7 @@ import * as fs from "fs";
 import * as TJS from "typescript-json-schema";
 import { pipe } from "./index";
 
-const settings: TJS.PartialArgs = { required: true, ref: false };
+const settings: TJS.PartialArgs = { required: true };
 const compilerOptions: TJS.CompilerOptions = { strictNullChecks: true };
 const basePath = path.resolve(__dirname, "../../src");
 
