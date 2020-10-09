@@ -353,6 +353,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -410,6 +413,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -419,16 +431,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -588,6 +597,9 @@ export default {
                 "$ref": "#/definitions/babel.types.ConditionalExpression"
               },
               {
+                "$ref": "#/definitions/babel.types.DecimalLiteral"
+              },
+              {
                 "$ref": "#/definitions/babel.types.DoExpression"
               },
               {
@@ -645,6 +657,15 @@ export default {
                 "$ref": "#/definitions/babel.types.YieldExpression"
               },
               {
+                "$ref": "#/definitions/babel.types.Import"
+              },
+              {
+                "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              },
+              {
                 "$ref": "#/definitions/babel.types.TypeCastExpression"
               },
               {
@@ -654,16 +675,13 @@ export default {
                 "$ref": "#/definitions/babel.types.JSXFragment"
               },
               {
-                "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-              },
-              {
                 "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
               },
               {
-                "$ref": "#/definitions/babel.types.OptionalCallExpression"
+                "$ref": "#/definitions/babel.types.RecordExpression"
               },
               {
-                "$ref": "#/definitions/babel.types.Import"
+                "$ref": "#/definitions/babel.types.TupleExpression"
               },
               {
                 "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -856,6 +874,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -913,6 +934,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -922,16 +952,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -948,10 +975,7 @@ export default {
           "type": "boolean"
         },
         "expression": {
-          "type": [
-            "null",
-            "boolean"
-          ]
+          "type": "boolean"
         },
         "generator": {
           "type": "boolean"
@@ -1115,6 +1139,9 @@ export default {
               },
               {
                 "$ref": "#/definitions/babel.types.ObjectPattern"
+              },
+              {
+                "type": "null"
               }
             ]
           }
@@ -1311,6 +1338,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -1368,6 +1398,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -1377,16 +1416,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -1576,6 +1612,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -1633,6 +1672,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -1642,16 +1690,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -1664,7 +1709,148 @@ export default {
             }
           ]
         },
-        "property": {},
+        "property": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.ArrayExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AssignmentExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AwaitExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BigIntLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BinaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.LogicalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BindExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.CallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ClassExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ConditionalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DoExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumericLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RegExpLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NewExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SequenceExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ParenthesizedExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UpdateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MetaProperty"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Super"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TemplateLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.YieldExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeCastExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXElement"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXFragment"
+            },
+            {
+              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RecordExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSAsExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAssertion"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNonNullExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.PrivateName"
+            }
+          ]
+        },
         "computed": {
           "type": "boolean"
         },
@@ -1850,6 +2036,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -1907,6 +2096,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -1916,16 +2114,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -2349,23 +2544,16 @@ export default {
             "ObjectProperty"
           ]
         },
-        "key": {},
-        "value": {
+        "key": {
           "anyOf": [
             {
               "$ref": "#/definitions/babel.types.ArrayExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrayPattern"
             },
             {
               "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
             },
             {
               "$ref": "#/definitions/babel.types.AssignmentExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.AssignmentPattern"
             },
             {
               "$ref": "#/definitions/babel.types.AwaitExpression"
@@ -2396,6 +2584,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
             },
             {
               "$ref": "#/definitions/babel.types.DoExpression"
@@ -2455,6 +2646,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -2464,16 +2664,158 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
+              "$ref": "#/definitions/babel.types.RecordExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSAsExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAssertion"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNonNullExpression"
+            }
+          ]
+        },
+        "value": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.ArrayExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrayPattern"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AssignmentExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AssignmentPattern"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AwaitExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BigIntLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BinaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.LogicalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BindExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.CallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ClassExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ConditionalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DoExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumericLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RegExpLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NewExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SequenceExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ParenthesizedExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UpdateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MetaProperty"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Super"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TemplateLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.YieldExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
             },
             {
               "$ref": "#/definitions/babel.types.OptionalCallExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TypeCastExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXElement"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXFragment"
+            },
+            {
+              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RecordExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -2660,6 +3002,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -2717,6 +3062,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -2726,16 +3080,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -3125,6 +3476,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -3182,6 +3536,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -3191,16 +3554,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -3210,6 +3570,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.TSNonNullExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.PrivateName"
             }
           ]
         },
@@ -3255,6 +3618,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -3312,6 +3678,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -3321,16 +3696,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -3498,6 +3870,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -3555,6 +3930,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -3564,16 +3948,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -3628,6 +4009,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -3685,6 +4069,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -3694,16 +4087,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -3821,8 +4211,284 @@ export default {
             "BindExpression"
           ]
         },
-        "object": {},
-        "callee": {},
+        "object": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.ArrayExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AssignmentExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AwaitExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BigIntLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BinaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.LogicalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BindExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.CallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ClassExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ConditionalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DoExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumericLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RegExpLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NewExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SequenceExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ParenthesizedExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UpdateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MetaProperty"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Super"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TemplateLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.YieldExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeCastExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXElement"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXFragment"
+            },
+            {
+              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RecordExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSAsExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAssertion"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNonNullExpression"
+            }
+          ]
+        },
+        "callee": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.ArrayExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AssignmentExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AwaitExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BigIntLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BinaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.LogicalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BindExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.CallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ClassExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ConditionalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DoExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumericLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RegExpLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NewExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SequenceExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ParenthesizedExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UpdateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MetaProperty"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Super"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TemplateLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.YieldExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeCastExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXElement"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXFragment"
+            },
+            {
+              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RecordExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSAsExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAssertion"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNonNullExpression"
+            }
+          ]
+        },
         "leadingComments": {
           "anyOf": [
             {
@@ -4352,6 +5018,9 @@ export default {
                 "$ref": "#/definitions/babel.types.TypeAlias"
               },
               {
+                "$ref": "#/definitions/babel.types.EnumDeclaration"
+              },
+              {
                 "$ref": "#/definitions/babel.types.TSDeclareFunction"
               },
               {
@@ -4545,6 +5214,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -4602,6 +5274,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -4611,16 +5292,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -4733,6 +5411,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.TypeAlias"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EnumDeclaration"
             },
             {
               "$ref": "#/definitions/babel.types.TSDeclareFunction"
@@ -5027,6 +5708,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -5084,6 +5768,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -5093,16 +5786,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -5165,6 +5855,9 @@ export default {
                 "$ref": "#/definitions/babel.types.ConditionalExpression"
               },
               {
+                "$ref": "#/definitions/babel.types.DecimalLiteral"
+              },
+              {
                 "$ref": "#/definitions/babel.types.DoExpression"
               },
               {
@@ -5222,6 +5915,15 @@ export default {
                 "$ref": "#/definitions/babel.types.YieldExpression"
               },
               {
+                "$ref": "#/definitions/babel.types.Import"
+              },
+              {
+                "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              },
+              {
                 "$ref": "#/definitions/babel.types.TypeCastExpression"
               },
               {
@@ -5231,16 +5933,13 @@ export default {
                 "$ref": "#/definitions/babel.types.JSXFragment"
               },
               {
-                "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-              },
-              {
                 "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
               },
               {
-                "$ref": "#/definitions/babel.types.OptionalCallExpression"
+                "$ref": "#/definitions/babel.types.RecordExpression"
               },
               {
-                "$ref": "#/definitions/babel.types.Import"
+                "$ref": "#/definitions/babel.types.TupleExpression"
               },
               {
                 "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -5445,6 +6144,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -5502,6 +6204,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -5511,16 +6222,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -5572,7 +6280,16 @@ export default {
             }
           ]
         },
-        "mixins": {},
+        "mixins": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.InterfaceExtends"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
         "superTypeParameters": {
           "anyOf": [
             {
@@ -5754,6 +6471,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -5811,6 +6531,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -5820,16 +6549,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -5884,6 +6610,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -5941,6 +6670,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -5950,16 +6688,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -6014,6 +6749,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -6071,6 +6809,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -6080,16 +6827,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -6196,6 +6940,112 @@ export default {
         "test",
         "trailingComments",
         "type"
+      ]
+    },
+    "babel.types.DecimalLiteral": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "DecimalLiteral"
+          ]
+        },
+        "value": {
+          "type": "string"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "value"
       ]
     },
     "babel.types.DoExpression": {
@@ -6779,6 +7629,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -6836,6 +7689,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -6845,16 +7707,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -6917,6 +7776,9 @@ export default {
                 "$ref": "#/definitions/babel.types.ConditionalExpression"
               },
               {
+                "$ref": "#/definitions/babel.types.DecimalLiteral"
+              },
+              {
                 "$ref": "#/definitions/babel.types.DoExpression"
               },
               {
@@ -6974,6 +7836,15 @@ export default {
                 "$ref": "#/definitions/babel.types.YieldExpression"
               },
               {
+                "$ref": "#/definitions/babel.types.Import"
+              },
+              {
+                "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              },
+              {
                 "$ref": "#/definitions/babel.types.TypeCastExpression"
               },
               {
@@ -6983,16 +7854,13 @@ export default {
                 "$ref": "#/definitions/babel.types.JSXFragment"
               },
               {
-                "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-              },
-              {
                 "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
               },
               {
-                "$ref": "#/definitions/babel.types.OptionalCallExpression"
+                "$ref": "#/definitions/babel.types.RecordExpression"
               },
               {
-                "$ref": "#/definitions/babel.types.Import"
+                "$ref": "#/definitions/babel.types.TupleExpression"
               },
               {
                 "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -7272,7 +8140,145 @@ export default {
           ],
           "type": "string"
         },
-        "key": {},
+        "key": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.ArrayExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AssignmentExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AwaitExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BigIntLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BinaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.LogicalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BindExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.CallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ClassExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ConditionalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DoExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumericLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RegExpLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NewExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SequenceExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ParenthesizedExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UpdateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MetaProperty"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Super"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TemplateLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.YieldExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeCastExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXElement"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXFragment"
+            },
+            {
+              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RecordExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSAsExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAssertion"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNonNullExpression"
+            }
+          ]
+        },
         "params": {
           "type": "array",
           "items": {
@@ -7304,6 +8310,9 @@ export default {
         "computed": {
           "type": "boolean"
         },
+        "generator": {
+          "type": "boolean"
+        },
         "async": {
           "type": "boolean"
         },
@@ -7319,9 +8328,6 @@ export default {
               "type": "null"
             }
           ]
-        },
-        "generator": {
-          "type": "boolean"
         },
         "returnType": {
           "anyOf": [
@@ -7458,11967 +8464,6 @@ export default {
         "typeParameters"
       ]
     },
-    "babel.types.TypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TypeAnnotation"
-          ]
-        },
-        "typeAnnotation": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type",
-        "typeAnnotation"
-      ]
-    },
-    "babel.types.AnyTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "AnyTypeAnnotation"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.ArrayTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "ArrayTypeAnnotation"
-          ]
-        },
-        "elementType": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "elementType",
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.BooleanLiteralTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "BooleanLiteralTypeAnnotation"
-          ]
-        },
-        "value": {
-          "type": "boolean"
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type",
-        "value"
-      ]
-    },
-    "babel.types.BooleanTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "BooleanTypeAnnotation"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.EmptyTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "EmptyTypeAnnotation"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.ExistsTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "ExistsTypeAnnotation"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.NullLiteralTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "NullLiteralTypeAnnotation"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.FunctionTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "FunctionTypeAnnotation"
-          ]
-        },
-        "typeParameters": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TypeParameterDeclaration"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "params": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/babel.types.FunctionTypeParam"
-          }
-        },
-        "rest": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.FunctionTypeParam"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "returnType": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "params",
-        "rest",
-        "returnType",
-        "start",
-        "trailingComments",
-        "type",
-        "typeParameters"
-      ]
-    },
-    "babel.types.TypeParameterDeclaration": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TypeParameterDeclaration"
-          ]
-        },
-        "params": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/babel.types.TypeParameter"
-          }
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "params",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TypeParameter": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TypeParameter"
-          ]
-        },
-        "bound": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TypeAnnotation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "default": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "variance": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.Variance"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "name": {
-          "type": [
-            "null",
-            "string"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "bound",
-        "default",
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "name",
-        "start",
-        "trailingComments",
-        "type",
-        "variance"
-      ]
-    },
-    "babel.types.GenericTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "GenericTypeAnnotation"
-          ]
-        },
-        "id": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "$ref": "#/definitions/babel.types.QualifiedTypeIdentifier"
-            }
-          ]
-        },
-        "typeParameters": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TypeParameterInstantiation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "id",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type",
-        "typeParameters"
-      ]
-    },
-    "babel.types.QualifiedTypeIdentifier": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "QualifiedTypeIdentifier"
-          ]
-        },
-        "id": {
-          "$ref": "#/definitions/babel.types.Identifier"
-        },
-        "qualification": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "$ref": "#/definitions/babel.types.QualifiedTypeIdentifier"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "id",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "qualification",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TypeParameterInstantiation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TypeParameterInstantiation"
-          ]
-        },
-        "params": {
-          "type": "array",
-          "items": {
-            "anyOf": [
-              {
-                "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.StringTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
-              }
-            ]
-          }
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "params",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.InterfaceTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "InterfaceTypeAnnotation"
-          ]
-        },
-        "extends": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "$ref": "#/definitions/babel.types.InterfaceExtends"
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "body": {
-          "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "body",
-        "end",
-        "extends",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.InterfaceExtends": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "InterfaceExtends"
-          ]
-        },
-        "id": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "$ref": "#/definitions/babel.types.QualifiedTypeIdentifier"
-            }
-          ]
-        },
-        "typeParameters": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TypeParameterInstantiation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "id",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type",
-        "typeParameters"
-      ]
-    },
-    "babel.types.ObjectTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "ObjectTypeAnnotation"
-          ]
-        },
-        "properties": {
-          "type": "array",
-          "items": {
-            "anyOf": [
-              {
-                "$ref": "#/definitions/babel.types.ObjectTypeProperty"
-              },
-              {
-                "$ref": "#/definitions/babel.types.ObjectTypeSpreadProperty"
-              }
-            ]
-          }
-        },
-        "indexers": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "$ref": "#/definitions/babel.types.ObjectTypeIndexer"
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "callProperties": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "$ref": "#/definitions/babel.types.ObjectTypeCallProperty"
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "internalSlots": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "$ref": "#/definitions/babel.types.ObjectTypeInternalSlot"
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "exact": {
-          "type": "boolean"
-        },
-        "inexact": {
-          "type": [
-            "null",
-            "boolean"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "callProperties",
-        "end",
-        "exact",
-        "indexers",
-        "inexact",
-        "innerComments",
-        "internalSlots",
-        "leadingComments",
-        "loc",
-        "properties",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.ObjectTypeProperty": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "ObjectTypeProperty"
-          ]
-        },
-        "key": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteral"
-            }
-          ]
-        },
-        "value": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
-            }
-          ]
-        },
-        "variance": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.Variance"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "kind": {
-          "anyOf": [
-            {
-              "enum": [
-                "get",
-                "init",
-                "set"
-              ],
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "optional": {
-          "type": [
-            "null",
-            "boolean"
-          ]
-        },
-        "proto": {
-          "type": [
-            "null",
-            "boolean"
-          ]
-        },
-        "static": {
-          "type": [
-            "null",
-            "boolean"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "key",
-        "kind",
-        "leadingComments",
-        "loc",
-        "optional",
-        "proto",
-        "start",
-        "static",
-        "trailingComments",
-        "type",
-        "value",
-        "variance"
-      ]
-    },
-    "babel.types.IntersectionTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "IntersectionTypeAnnotation"
-          ]
-        },
-        "types": {
-          "type": "array",
-          "items": {
-            "anyOf": [
-              {
-                "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.StringTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
-              }
-            ]
-          }
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type",
-        "types"
-      ]
-    },
-    "babel.types.MixedTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "MixedTypeAnnotation"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.NullableTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "NullableTypeAnnotation"
-          ]
-        },
-        "typeAnnotation": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type",
-        "typeAnnotation"
-      ]
-    },
-    "babel.types.NumberLiteralTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "NumberLiteralTypeAnnotation"
-          ]
-        },
-        "value": {
-          "type": "number"
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type",
-        "value"
-      ]
-    },
-    "babel.types.NumberTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "NumberTypeAnnotation"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.StringLiteralTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "StringLiteralTypeAnnotation"
-          ]
-        },
-        "value": {
-          "type": "string"
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type",
-        "value"
-      ]
-    },
-    "babel.types.StringTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "StringTypeAnnotation"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.ThisTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "ThisTypeAnnotation"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TupleTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TupleTypeAnnotation"
-          ]
-        },
-        "types": {
-          "type": "array",
-          "items": {
-            "anyOf": [
-              {
-                "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.StringTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
-              }
-            ]
-          }
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type",
-        "types"
-      ]
-    },
-    "babel.types.TypeofTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TypeofTypeAnnotation"
-          ]
-        },
-        "argument": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "argument",
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.UnionTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "UnionTypeAnnotation"
-          ]
-        },
-        "types": {
-          "type": "array",
-          "items": {
-            "anyOf": [
-              {
-                "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.StringTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
-              },
-              {
-                "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
-              }
-            ]
-          }
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type",
-        "types"
-      ]
-    },
-    "babel.types.VoidTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "VoidTypeAnnotation"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.Variance": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "Variance"
-          ]
-        },
-        "kind": {
-          "enum": [
-            "minus",
-            "plus"
-          ],
-          "type": "string"
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "kind",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.ObjectTypeSpreadProperty": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "ObjectTypeSpreadProperty"
-          ]
-        },
-        "argument": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "argument",
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.ObjectTypeIndexer": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "ObjectTypeIndexer"
-          ]
-        },
-        "id": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "key": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
-            }
-          ]
-        },
-        "value": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
-            }
-          ]
-        },
-        "variance": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.Variance"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "static": {
-          "type": [
-            "null",
-            "boolean"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "id",
-        "innerComments",
-        "key",
-        "leadingComments",
-        "loc",
-        "start",
-        "static",
-        "trailingComments",
-        "type",
-        "value",
-        "variance"
-      ]
-    },
-    "babel.types.ObjectTypeCallProperty": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "ObjectTypeCallProperty"
-          ]
-        },
-        "value": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
-            }
-          ]
-        },
-        "static": {
-          "type": [
-            "null",
-            "boolean"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "static",
-        "trailingComments",
-        "type",
-        "value"
-      ]
-    },
-    "babel.types.ObjectTypeInternalSlot": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "ObjectTypeInternalSlot"
-          ]
-        },
-        "id": {
-          "$ref": "#/definitions/babel.types.Identifier"
-        },
-        "value": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
-            }
-          ]
-        },
-        "optional": {
-          "type": "boolean"
-        },
-        "static": {
-          "type": "boolean"
-        },
-        "method": {
-          "type": "boolean"
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "id",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "method",
-        "optional",
-        "start",
-        "static",
-        "trailingComments",
-        "type",
-        "value"
-      ]
-    },
-    "babel.types.FunctionTypeParam": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "FunctionTypeParam"
-          ]
-        },
-        "name": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "typeAnnotation": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
-            },
-            {
-              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
-            }
-          ]
-        },
-        "optional": {
-          "type": [
-            "null",
-            "boolean"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "name",
-        "optional",
-        "start",
-        "trailingComments",
-        "type",
-        "typeAnnotation"
-      ]
-    },
-    "babel.types.Noop": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "Noop"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSTypeAnnotation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSTypeAnnotation"
-          ]
-        },
-        "typeAnnotation": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSAnyKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSArrayType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConditionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConstructorType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSFunctionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSImportType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSInferType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIntersectionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSLiteralType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSMappedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNeverKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNullKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNumberKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSObjectKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSOptionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSParenthesizedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSRestType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSStringKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTupleType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSVoidKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypePredicate"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeQuery"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeOperator"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type",
-        "typeAnnotation"
-      ]
-    },
-    "babel.types.TSAnyKeyword": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSAnyKeyword"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSArrayType": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSArrayType"
-          ]
-        },
-        "elementType": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSAnyKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSArrayType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConditionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConstructorType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSFunctionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSImportType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSInferType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIntersectionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSLiteralType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSMappedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNeverKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNullKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNumberKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSObjectKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSOptionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSParenthesizedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSRestType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSStringKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTupleType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSVoidKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypePredicate"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeQuery"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeOperator"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "elementType",
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSBigIntKeyword": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSBigIntKeyword"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSBooleanKeyword": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSBooleanKeyword"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSConditionalType": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSConditionalType"
-          ]
-        },
-        "checkType": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSAnyKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSArrayType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConditionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConstructorType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSFunctionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSImportType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSInferType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIntersectionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSLiteralType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSMappedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNeverKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNullKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNumberKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSObjectKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSOptionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSParenthesizedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSRestType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSStringKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTupleType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSVoidKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypePredicate"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeQuery"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeOperator"
-            }
-          ]
-        },
-        "extendsType": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSAnyKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSArrayType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConditionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConstructorType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSFunctionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSImportType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSInferType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIntersectionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSLiteralType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSMappedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNeverKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNullKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNumberKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSObjectKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSOptionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSParenthesizedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSRestType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSStringKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTupleType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSVoidKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypePredicate"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeQuery"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeOperator"
-            }
-          ]
-        },
-        "trueType": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSAnyKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSArrayType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConditionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConstructorType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSFunctionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSImportType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSInferType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIntersectionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSLiteralType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSMappedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNeverKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNullKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNumberKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSObjectKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSOptionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSParenthesizedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSRestType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSStringKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTupleType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSVoidKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypePredicate"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeQuery"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeOperator"
-            }
-          ]
-        },
-        "falseType": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSAnyKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSArrayType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConditionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConstructorType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSFunctionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSImportType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSInferType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIntersectionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSLiteralType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSMappedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNeverKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNullKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNumberKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSObjectKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSOptionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSParenthesizedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSRestType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSStringKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTupleType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSVoidKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypePredicate"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeQuery"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeOperator"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "checkType",
-        "end",
-        "extendsType",
-        "falseType",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "trueType",
-        "type"
-      ]
-    },
-    "babel.types.TSConstructorType": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSConstructorType"
-          ]
-        },
-        "typeParameters": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSTypeParameterDeclaration"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "parameters": {
-          "type": "array",
-          "items": {
-            "anyOf": [
-              {
-                "$ref": "#/definitions/babel.types.Identifier"
-              },
-              {
-                "$ref": "#/definitions/babel.types.RestElement"
-              }
-            ]
-          }
-        },
-        "typeAnnotation": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSTypeAnnotation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "parameters",
-        "start",
-        "trailingComments",
-        "type",
-        "typeAnnotation",
-        "typeParameters"
-      ]
-    },
-    "babel.types.TSTypeParameterDeclaration": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSTypeParameterDeclaration"
-          ]
-        },
-        "params": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/babel.types.TSTypeParameter"
-          }
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "params",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSTypeParameter": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSTypeParameter"
-          ]
-        },
-        "constraint": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSAnyKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSArrayType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConditionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConstructorType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSFunctionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSImportType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSInferType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIntersectionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSLiteralType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSMappedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNeverKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNullKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNumberKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSObjectKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSOptionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSParenthesizedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSRestType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSStringKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTupleType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSVoidKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypePredicate"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeQuery"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeOperator"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "default": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSAnyKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSArrayType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConditionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConstructorType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSFunctionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSImportType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSInferType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIntersectionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSLiteralType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSMappedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNeverKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNullKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNumberKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSObjectKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSOptionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSParenthesizedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSRestType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSStringKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTupleType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSVoidKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypePredicate"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeQuery"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeOperator"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "name": {
-          "type": "string"
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "constraint",
-        "default",
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "name",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSExpressionWithTypeArguments": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSExpressionWithTypeArguments"
-          ]
-        },
-        "expression": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSQualifiedName"
-            }
-          ]
-        },
-        "typeParameters": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSTypeParameterInstantiation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "expression",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type",
-        "typeParameters"
-      ]
-    },
-    "babel.types.TSQualifiedName": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSQualifiedName"
-          ]
-        },
-        "left": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSQualifiedName"
-            }
-          ]
-        },
-        "right": {
-          "$ref": "#/definitions/babel.types.Identifier"
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "left",
-        "loc",
-        "right",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSTypeParameterInstantiation": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSTypeParameterInstantiation"
-          ]
-        },
-        "params": {
-          "type": "array",
-          "items": {
-            "anyOf": [
-              {
-                "$ref": "#/definitions/babel.types.TSAnyKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSArrayType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSBigIntKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSBooleanKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSConditionalType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSConstructorType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSFunctionType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSImportType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSIndexedAccessType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSInferType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSIntersectionType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSLiteralType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSMappedType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSNeverKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSNullKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSNumberKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSObjectKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSOptionalType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSParenthesizedType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSRestType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSStringKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSThisType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTupleType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSVoidKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTypeReference"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTypePredicate"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTypeQuery"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTypeLiteral"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSUnionType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTypeOperator"
-              }
-            ]
-          }
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "params",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSFunctionType": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSFunctionType"
-          ]
-        },
-        "typeParameters": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSTypeParameterDeclaration"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "parameters": {
-          "type": "array",
-          "items": {
-            "anyOf": [
-              {
-                "$ref": "#/definitions/babel.types.Identifier"
-              },
-              {
-                "$ref": "#/definitions/babel.types.RestElement"
-              }
-            ]
-          }
-        },
-        "typeAnnotation": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSTypeAnnotation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "parameters",
-        "start",
-        "trailingComments",
-        "type",
-        "typeAnnotation",
-        "typeParameters"
-      ]
-    },
-    "babel.types.TSImportType": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSImportType"
-          ]
-        },
-        "argument": {
-          "$ref": "#/definitions/babel.types.StringLiteral"
-        },
-        "qualifier": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSQualifiedName"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "typeParameters": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSTypeParameterInstantiation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "argument",
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "qualifier",
-        "start",
-        "trailingComments",
-        "type",
-        "typeParameters"
-      ]
-    },
-    "babel.types.TSIndexedAccessType": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSIndexedAccessType"
-          ]
-        },
-        "objectType": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSAnyKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSArrayType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConditionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConstructorType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSFunctionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSImportType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSInferType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIntersectionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSLiteralType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSMappedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNeverKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNullKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNumberKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSObjectKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSOptionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSParenthesizedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSRestType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSStringKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTupleType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSVoidKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypePredicate"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeQuery"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeOperator"
-            }
-          ]
-        },
-        "indexType": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSAnyKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSArrayType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConditionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConstructorType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSFunctionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSImportType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSInferType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIntersectionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSLiteralType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSMappedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNeverKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNullKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNumberKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSObjectKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSOptionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSParenthesizedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSRestType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSStringKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTupleType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSVoidKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypePredicate"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeQuery"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeOperator"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "indexType",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "objectType",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSInferType": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSInferType"
-          ]
-        },
-        "typeParameter": {
-          "$ref": "#/definitions/babel.types.TSTypeParameter"
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type",
-        "typeParameter"
-      ]
-    },
-    "babel.types.TSIntersectionType": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSIntersectionType"
-          ]
-        },
-        "types": {
-          "type": "array",
-          "items": {
-            "anyOf": [
-              {
-                "$ref": "#/definitions/babel.types.TSAnyKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSArrayType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSBigIntKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSBooleanKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSConditionalType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSConstructorType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSFunctionType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSImportType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSIndexedAccessType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSInferType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSIntersectionType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSLiteralType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSMappedType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSNeverKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSNullKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSNumberKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSObjectKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSOptionalType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSParenthesizedType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSRestType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSStringKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSThisType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTupleType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSVoidKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTypeReference"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTypePredicate"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTypeQuery"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTypeLiteral"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSUnionType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTypeOperator"
-              }
-            ]
-          }
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type",
-        "types"
-      ]
-    },
-    "babel.types.TSLiteralType": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSLiteralType"
-          ]
-        },
-        "literal": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumericLiteral"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "literal",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSMappedType": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSMappedType"
-          ]
-        },
-        "typeParameter": {
-          "$ref": "#/definitions/babel.types.TSTypeParameter"
-        },
-        "typeAnnotation": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSAnyKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSArrayType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConditionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConstructorType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSFunctionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSImportType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSInferType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIntersectionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSLiteralType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSMappedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNeverKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNullKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNumberKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSObjectKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSOptionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSParenthesizedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSRestType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSStringKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTupleType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSVoidKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypePredicate"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeQuery"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeOperator"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "optional": {
-          "type": [
-            "null",
-            "boolean"
-          ]
-        },
-        "readonly": {
-          "type": [
-            "null",
-            "boolean"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "optional",
-        "readonly",
-        "start",
-        "trailingComments",
-        "type",
-        "typeAnnotation",
-        "typeParameter"
-      ]
-    },
-    "babel.types.TSNeverKeyword": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSNeverKeyword"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSNullKeyword": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSNullKeyword"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSNumberKeyword": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSNumberKeyword"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSObjectKeyword": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSObjectKeyword"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSOptionalType": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSOptionalType"
-          ]
-        },
-        "typeAnnotation": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSAnyKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSArrayType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConditionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConstructorType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSFunctionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSImportType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSInferType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIntersectionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSLiteralType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSMappedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNeverKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNullKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNumberKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSObjectKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSOptionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSParenthesizedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSRestType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSStringKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTupleType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSVoidKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypePredicate"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeQuery"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeOperator"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type",
-        "typeAnnotation"
-      ]
-    },
-    "babel.types.TSParenthesizedType": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSParenthesizedType"
-          ]
-        },
-        "typeAnnotation": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSAnyKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSArrayType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConditionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConstructorType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSFunctionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSImportType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSInferType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIntersectionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSLiteralType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSMappedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNeverKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNullKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNumberKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSObjectKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSOptionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSParenthesizedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSRestType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSStringKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTupleType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSVoidKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypePredicate"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeQuery"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeOperator"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type",
-        "typeAnnotation"
-      ]
-    },
-    "babel.types.TSRestType": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSRestType"
-          ]
-        },
-        "typeAnnotation": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSAnyKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSArrayType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConditionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSConstructorType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSFunctionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSImportType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSInferType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSIntersectionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSLiteralType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSMappedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNeverKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNullKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNumberKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSObjectKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSOptionalType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSParenthesizedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSRestType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSStringKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTupleType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSVoidKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypePredicate"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeQuery"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnionType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeOperator"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type",
-        "typeAnnotation"
-      ]
-    },
-    "babel.types.TSStringKeyword": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSStringKeyword"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSSymbolKeyword": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSSymbolKeyword"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSThisType": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSThisType"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSTupleType": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSTupleType"
-          ]
-        },
-        "elementTypes": {
-          "type": "array",
-          "items": {
-            "anyOf": [
-              {
-                "$ref": "#/definitions/babel.types.TSAnyKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSArrayType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSBigIntKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSBooleanKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSConditionalType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSConstructorType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSFunctionType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSImportType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSIndexedAccessType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSInferType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSIntersectionType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSLiteralType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSMappedType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSNeverKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSNullKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSNumberKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSObjectKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSOptionalType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSParenthesizedType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSRestType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSStringKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSThisType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTupleType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSVoidKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTypeReference"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTypePredicate"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTypeQuery"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTypeLiteral"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSUnionType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTypeOperator"
-              }
-            ]
-          }
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "elementTypes",
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSUndefinedKeyword": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSUndefinedKeyword"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSUnknownKeyword": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSUnknownKeyword"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSVoidKeyword": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSVoidKeyword"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSTypeReference": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSTypeReference"
-          ]
-        },
-        "typeName": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSQualifiedName"
-            }
-          ]
-        },
-        "typeParameters": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSTypeParameterInstantiation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type",
-        "typeName",
-        "typeParameters"
-      ]
-    },
-    "babel.types.TSTypePredicate": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSTypePredicate"
-          ]
-        },
-        "parameterName": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            }
-          ]
-        },
-        "typeAnnotation": {
-          "$ref": "#/definitions/babel.types.TSTypeAnnotation"
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "parameterName",
-        "start",
-        "trailingComments",
-        "type",
-        "typeAnnotation"
-      ]
-    },
-    "babel.types.TSTypeQuery": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSTypeQuery"
-          ]
-        },
-        "exprName": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSQualifiedName"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSImportType"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "exprName",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSTypeLiteral": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSTypeLiteral"
-          ]
-        },
-        "members": {
-          "type": "array",
-          "items": {
-            "anyOf": [
-              {
-                "$ref": "#/definitions/babel.types.TSCallSignatureDeclaration"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSConstructSignatureDeclaration"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSIndexSignature"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSMethodSignature"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSPropertySignature"
-              }
-            ]
-          }
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "members",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.TSCallSignatureDeclaration": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSCallSignatureDeclaration"
-          ]
-        },
-        "typeParameters": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSTypeParameterDeclaration"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "parameters": {
-          "type": "array",
-          "items": {
-            "anyOf": [
-              {
-                "$ref": "#/definitions/babel.types.Identifier"
-              },
-              {
-                "$ref": "#/definitions/babel.types.RestElement"
-              }
-            ]
-          }
-        },
-        "typeAnnotation": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSTypeAnnotation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "parameters",
-        "start",
-        "trailingComments",
-        "type",
-        "typeAnnotation",
-        "typeParameters"
-      ]
-    },
-    "babel.types.TSConstructSignatureDeclaration": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSConstructSignatureDeclaration"
-          ]
-        },
-        "typeParameters": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSTypeParameterDeclaration"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "parameters": {
-          "type": "array",
-          "items": {
-            "anyOf": [
-              {
-                "$ref": "#/definitions/babel.types.Identifier"
-              },
-              {
-                "$ref": "#/definitions/babel.types.RestElement"
-              }
-            ]
-          }
-        },
-        "typeAnnotation": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSTypeAnnotation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "parameters",
-        "start",
-        "trailingComments",
-        "type",
-        "typeAnnotation",
-        "typeParameters"
-      ]
-    },
-    "babel.types.TSIndexSignature": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSIndexSignature"
-          ]
-        },
-        "parameters": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/babel.types.Identifier"
-          }
-        },
-        "typeAnnotation": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSTypeAnnotation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "readonly": {
-          "type": [
-            "null",
-            "boolean"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "parameters",
-        "readonly",
-        "start",
-        "trailingComments",
-        "type",
-        "typeAnnotation"
-      ]
-    },
-    "babel.types.TSMethodSignature": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSMethodSignature"
-          ]
-        },
-        "key": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.ArrayExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.AssignmentExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.AwaitExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BigIntLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BinaryExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.LogicalExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BindExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.CallExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ClassExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ConditionalExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.DoExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumericLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.RegExpLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MemberExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NewExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.SequenceExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ParenthesizedExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnaryExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UpdateExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MetaProperty"
-            },
-            {
-              "$ref": "#/definitions/babel.types.Super"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TemplateLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.YieldExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeCastExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.JSXElement"
-            },
-            {
-              "$ref": "#/definitions/babel.types.JSXFragment"
-            },
-            {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.Import"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSAsExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeAssertion"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNonNullExpression"
-            }
-          ]
-        },
-        "typeParameters": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSTypeParameterDeclaration"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "parameters": {
-          "type": "array",
-          "items": {
-            "anyOf": [
-              {
-                "$ref": "#/definitions/babel.types.Identifier"
-              },
-              {
-                "$ref": "#/definitions/babel.types.RestElement"
-              }
-            ]
-          }
-        },
-        "typeAnnotation": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSTypeAnnotation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "computed": {
-          "type": [
-            "null",
-            "boolean"
-          ]
-        },
-        "optional": {
-          "type": [
-            "null",
-            "boolean"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "computed",
-        "end",
-        "innerComments",
-        "key",
-        "leadingComments",
-        "loc",
-        "optional",
-        "parameters",
-        "start",
-        "trailingComments",
-        "type",
-        "typeAnnotation",
-        "typeParameters"
-      ]
-    },
     "babel.types.SequenceExpression": {
       "type": "object",
       "properties": {
@@ -19470,6 +8515,9 @@ export default {
               },
               {
                 "$ref": "#/definitions/babel.types.ConditionalExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.DecimalLiteral"
               },
               {
                 "$ref": "#/definitions/babel.types.DoExpression"
@@ -19529,6 +8577,15 @@ export default {
                 "$ref": "#/definitions/babel.types.YieldExpression"
               },
               {
+                "$ref": "#/definitions/babel.types.Import"
+              },
+              {
+                "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              },
+              {
                 "$ref": "#/definitions/babel.types.TypeCastExpression"
               },
               {
@@ -19538,16 +8595,13 @@ export default {
                 "$ref": "#/definitions/babel.types.JSXFragment"
               },
               {
-                "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-              },
-              {
                 "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
               },
               {
-                "$ref": "#/definitions/babel.types.OptionalCallExpression"
+                "$ref": "#/definitions/babel.types.RecordExpression"
               },
               {
-                "$ref": "#/definitions/babel.types.Import"
+                "$ref": "#/definitions/babel.types.TupleExpression"
               },
               {
                 "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -19706,6 +8760,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -19763,6 +8820,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -19772,16 +8838,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -20054,6 +9117,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -20111,6 +9177,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -20120,16 +9195,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -20299,6 +9371,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -20356,6 +9431,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -20365,16 +9449,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -20749,6 +9830,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -20806,6 +9890,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -20815,16 +9908,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -21008,6 +10098,9 @@ export default {
                 "$ref": "#/definitions/babel.types.ConditionalExpression"
               },
               {
+                "$ref": "#/definitions/babel.types.DecimalLiteral"
+              },
+              {
                 "$ref": "#/definitions/babel.types.DoExpression"
               },
               {
@@ -21065,6 +10158,15 @@ export default {
                 "$ref": "#/definitions/babel.types.YieldExpression"
               },
               {
+                "$ref": "#/definitions/babel.types.Import"
+              },
+              {
+                "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              },
+              {
                 "$ref": "#/definitions/babel.types.TypeCastExpression"
               },
               {
@@ -21074,16 +10176,13 @@ export default {
                 "$ref": "#/definitions/babel.types.JSXFragment"
               },
               {
-                "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-              },
-              {
                 "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
               },
               {
-                "$ref": "#/definitions/babel.types.OptionalCallExpression"
+                "$ref": "#/definitions/babel.types.RecordExpression"
               },
               {
-                "$ref": "#/definitions/babel.types.Import"
+                "$ref": "#/definitions/babel.types.TupleExpression"
               },
               {
                 "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -21364,6 +10463,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -21421,6 +10523,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -21430,16 +10541,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -21553,16 +10661,118 @@ export default {
         "type"
       ]
     },
-    "babel.types.TypeCastExpression": {
+    "babel.types.Import": {
       "type": "object",
       "properties": {
         "type": {
           "type": "string",
           "enum": [
-            "TypeCastExpression"
+            "Import"
           ]
         },
-        "expression": {
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.OptionalMemberExpression": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "OptionalMemberExpression"
+          ]
+        },
+        "object": {
           "anyOf": [
             {
               "$ref": "#/definitions/babel.types.ArrayExpression"
@@ -21602,6 +10812,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
             },
             {
               "$ref": "#/definitions/babel.types.DoExpression"
@@ -21661,6 +10874,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -21670,16 +10892,820 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
+              "$ref": "#/definitions/babel.types.RecordExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSAsExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAssertion"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNonNullExpression"
+            }
+          ]
+        },
+        "property": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.ArrayExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AssignmentExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AwaitExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BigIntLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BinaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.LogicalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BindExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.CallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ClassExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ConditionalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DoExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumericLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RegExpLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NewExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SequenceExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ParenthesizedExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UpdateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MetaProperty"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Super"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TemplateLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.YieldExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
             },
             {
               "$ref": "#/definitions/babel.types.OptionalCallExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.TypeCastExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXElement"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXFragment"
+            },
+            {
+              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RecordExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSAsExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAssertion"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNonNullExpression"
+            }
+          ]
+        },
+        "computed": {
+          "type": "boolean"
+        },
+        "optional": {
+          "type": "boolean"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "computed",
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "object",
+        "optional",
+        "property",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.OptionalCallExpression": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "OptionalCallExpression"
+          ]
+        },
+        "callee": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.ArrayExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AssignmentExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AwaitExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BigIntLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BinaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.LogicalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BindExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.CallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ClassExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ConditionalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DoExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumericLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RegExpLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NewExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SequenceExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ParenthesizedExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UpdateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MetaProperty"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Super"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TemplateLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.YieldExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeCastExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXElement"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXFragment"
+            },
+            {
+              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RecordExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSAsExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAssertion"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNonNullExpression"
+            }
+          ]
+        },
+        "arguments": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/babel.types.ArrayExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.AssignmentExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.AwaitExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.BigIntLiteral"
+              },
+              {
+                "$ref": "#/definitions/babel.types.BinaryExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.LogicalExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.BindExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.FunctionExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.BooleanLiteral"
+              },
+              {
+                "$ref": "#/definitions/babel.types.CallExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ClassExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ConditionalExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.DecimalLiteral"
+              },
+              {
+                "$ref": "#/definitions/babel.types.DoExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.Identifier"
+              },
+              {
+                "$ref": "#/definitions/babel.types.StringLiteral"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NumericLiteral"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NullLiteral"
+              },
+              {
+                "$ref": "#/definitions/babel.types.RegExpLiteral"
+              },
+              {
+                "$ref": "#/definitions/babel.types.MemberExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NewExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ObjectExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.SequenceExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ParenthesizedExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ThisExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.UnaryExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.UpdateExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.MetaProperty"
+              },
+              {
+                "$ref": "#/definitions/babel.types.Super"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TemplateLiteral"
+              },
+              {
+                "$ref": "#/definitions/babel.types.YieldExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.Import"
+              },
+              {
+                "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TypeCastExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.JSXElement"
+              },
+              {
+                "$ref": "#/definitions/babel.types.JSXFragment"
+              },
+              {
+                "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
+              },
+              {
+                "$ref": "#/definitions/babel.types.RecordExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TupleExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSAsExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTypeAssertion"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSNonNullExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.JSXNamespacedName"
+              },
+              {
+                "$ref": "#/definitions/babel.types.SpreadElement"
+              }
+            ]
+          }
+        },
+        "optional": {
+          "type": "boolean"
+        },
+        "typeArguments": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TypeParameterInstantiation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "typeParameters": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSTypeParameterInstantiation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "arguments",
+        "callee",
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "optional",
+        "start",
+        "trailingComments",
+        "type",
+        "typeArguments",
+        "typeParameters"
+      ]
+    },
+    "babel.types.TypeCastExpression": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TypeCastExpression"
+          ]
+        },
+        "expression": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.ArrayExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AssignmentExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AwaitExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BigIntLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BinaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.LogicalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BindExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.CallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ClassExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ConditionalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DoExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumericLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RegExpLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NewExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SequenceExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ParenthesizedExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UpdateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MetaProperty"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Super"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TemplateLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.YieldExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeCastExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXElement"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXFragment"
+            },
+            {
+              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RecordExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -21834,7 +11860,12 @@ export default {
             ]
           }
         },
-        "selfClosing": {},
+        "selfClosing": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
         "leadingComments": {
           "anyOf": [
             {
@@ -22934,6 +12965,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -22991,6 +13025,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -23000,16 +13043,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -23119,249 +13159,6 @@ export default {
         "type"
       ]
     },
-    "babel.types.OptionalMemberExpression": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "OptionalMemberExpression"
-          ]
-        },
-        "object": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.ArrayExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.AssignmentExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.AwaitExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BigIntLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BinaryExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.LogicalExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BindExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.CallExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ClassExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ConditionalExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.DoExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumericLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.RegExpLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MemberExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NewExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.SequenceExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ParenthesizedExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnaryExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UpdateExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MetaProperty"
-            },
-            {
-              "$ref": "#/definitions/babel.types.Super"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TemplateLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.YieldExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeCastExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.JSXElement"
-            },
-            {
-              "$ref": "#/definitions/babel.types.JSXFragment"
-            },
-            {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.Import"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSAsExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeAssertion"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNonNullExpression"
-            }
-          ]
-        },
-        "property": {},
-        "computed": {
-          "type": "boolean"
-        },
-        "optional": {
-          "type": "boolean"
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "computed",
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "object",
-        "optional",
-        "property",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
     "babel.types.PipelinePrimaryTopicReference": {
       "type": "object",
       "properties": {
@@ -23464,16 +13261,132 @@ export default {
         "type"
       ]
     },
-    "babel.types.OptionalCallExpression": {
+    "babel.types.RecordExpression": {
       "type": "object",
       "properties": {
         "type": {
           "type": "string",
           "enum": [
-            "OptionalCallExpression"
+            "RecordExpression"
           ]
         },
-        "callee": {
+        "properties": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/babel.types.ObjectProperty"
+              },
+              {
+                "$ref": "#/definitions/babel.types.SpreadElement"
+              }
+            ]
+          }
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "properties",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.SpreadElement": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "SpreadElement"
+          ]
+        },
+        "argument": {
           "anyOf": [
             {
               "$ref": "#/definitions/babel.types.ArrayExpression"
@@ -23513,6 +13426,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
             },
             {
               "$ref": "#/definitions/babel.types.DoExpression"
@@ -23572,6 +13488,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -23581,16 +13506,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -23603,7 +13525,110 @@ export default {
             }
           ]
         },
-        "arguments": {
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "argument",
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TupleExpression": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TupleExpression"
+          ]
+        },
+        "elements": {
           "type": "array",
           "items": {
             "anyOf": [
@@ -23645,6 +13670,9 @@ export default {
               },
               {
                 "$ref": "#/definitions/babel.types.ConditionalExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.DecimalLiteral"
               },
               {
                 "$ref": "#/definitions/babel.types.DoExpression"
@@ -23704,6 +13732,15 @@ export default {
                 "$ref": "#/definitions/babel.types.YieldExpression"
               },
               {
+                "$ref": "#/definitions/babel.types.Import"
+              },
+              {
+                "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+              },
+              {
+                "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              },
+              {
                 "$ref": "#/definitions/babel.types.TypeCastExpression"
               },
               {
@@ -23713,16 +13750,13 @@ export default {
                 "$ref": "#/definitions/babel.types.JSXFragment"
               },
               {
-                "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-              },
-              {
                 "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
               },
               {
-                "$ref": "#/definitions/babel.types.OptionalCallExpression"
+                "$ref": "#/definitions/babel.types.RecordExpression"
               },
               {
-                "$ref": "#/definitions/babel.types.Import"
+                "$ref": "#/definitions/babel.types.TupleExpression"
               },
               {
                 "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -23734,37 +13768,11 @@ export default {
                 "$ref": "#/definitions/babel.types.TSNonNullExpression"
               },
               {
-                "$ref": "#/definitions/babel.types.JSXNamespacedName"
-              },
-              {
                 "$ref": "#/definitions/babel.types.SpreadElement"
               }
             ]
           }
         },
-        "optional": {
-          "type": "boolean"
-        },
-        "typeArguments": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TypeParameterInstantiation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "typeParameters": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSTypeParameterInstantiation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
         "leadingComments": {
           "anyOf": [
             {
@@ -23849,113 +13857,7 @@ export default {
         }
       },
       "required": [
-        "arguments",
-        "callee",
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "optional",
-        "start",
-        "trailingComments",
-        "type",
-        "typeArguments",
-        "typeParameters"
-      ]
-    },
-    "babel.types.Import": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "Import"
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
+        "elements",
         "end",
         "innerComments",
         "leadingComments",
@@ -24016,6 +13918,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -24073,6 +13978,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -24082,16 +13996,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -24113,10 +14024,43 @@ export default {
               "$ref": "#/definitions/babel.types.TSArrayType"
             },
             {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
               "$ref": "#/definitions/babel.types.TSBigIntKeyword"
             },
             {
-              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
             },
             {
               "$ref": "#/definitions/babel.types.TSConditionalType"
@@ -24143,22 +14087,7 @@ export default {
               "$ref": "#/definitions/babel.types.TSIntersectionType"
             },
             {
-              "$ref": "#/definitions/babel.types.TSLiteralType"
-            },
-            {
               "$ref": "#/definitions/babel.types.TSMappedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNeverKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNullKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNumberKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSObjectKeyword"
             },
             {
               "$ref": "#/definitions/babel.types.TSOptionalType"
@@ -24170,25 +14099,7 @@ export default {
               "$ref": "#/definitions/babel.types.TSRestType"
             },
             {
-              "$ref": "#/definitions/babel.types.TSStringKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            },
-            {
               "$ref": "#/definitions/babel.types.TSTupleType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSVoidKeyword"
             },
             {
               "$ref": "#/definitions/babel.types.TSTypeReference"
@@ -24323,10 +14234,43 @@ export default {
               "$ref": "#/definitions/babel.types.TSArrayType"
             },
             {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
               "$ref": "#/definitions/babel.types.TSBigIntKeyword"
             },
             {
-              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
             },
             {
               "$ref": "#/definitions/babel.types.TSConditionalType"
@@ -24353,22 +14297,7 @@ export default {
               "$ref": "#/definitions/babel.types.TSIntersectionType"
             },
             {
-              "$ref": "#/definitions/babel.types.TSLiteralType"
-            },
-            {
               "$ref": "#/definitions/babel.types.TSMappedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNeverKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNullKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNumberKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSObjectKeyword"
             },
             {
               "$ref": "#/definitions/babel.types.TSOptionalType"
@@ -24380,25 +14309,7 @@ export default {
               "$ref": "#/definitions/babel.types.TSRestType"
             },
             {
-              "$ref": "#/definitions/babel.types.TSStringKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            },
-            {
               "$ref": "#/definitions/babel.types.TSTupleType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSVoidKeyword"
             },
             {
               "$ref": "#/definitions/babel.types.TSTypeReference"
@@ -24462,6 +14373,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -24519,6 +14433,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -24528,16 +14451,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -24645,16 +14565,3014 @@ export default {
         "typeAnnotation"
       ]
     },
-    "babel.types.TSUnionType": {
+    "babel.types.TSAnyKeyword": {
       "type": "object",
       "properties": {
         "type": {
           "type": "string",
           "enum": [
-            "TSUnionType"
+            "TSAnyKeyword"
           ]
         },
-        "types": {
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSArrayType": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSArrayType"
+          ]
+        },
+        "elementType": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSAnyKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSArrayType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConditionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConstructorType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSFunctionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSImportType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSInferType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIntersectionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSMappedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSOptionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSParenthesizedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSRestType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTupleType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypePredicate"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeQuery"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeOperator"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "elementType",
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSBooleanKeyword": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSBooleanKeyword"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSBigIntKeyword": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSBigIntKeyword"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSNeverKeyword": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSNeverKeyword"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSNullKeyword": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSNullKeyword"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSNumberKeyword": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSNumberKeyword"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSObjectKeyword": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSObjectKeyword"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSStringKeyword": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSStringKeyword"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSSymbolKeyword": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSSymbolKeyword"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSUndefinedKeyword": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSUndefinedKeyword"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSUnknownKeyword": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSUnknownKeyword"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSVoidKeyword": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSVoidKeyword"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSThisType": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSThisType"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSLiteralType": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSLiteralType"
+          ]
+        },
+        "literal": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.BigIntLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumericLiteral"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "literal",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSConditionalType": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSConditionalType"
+          ]
+        },
+        "checkType": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSAnyKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSArrayType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConditionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConstructorType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSFunctionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSImportType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSInferType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIntersectionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSMappedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSOptionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSParenthesizedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSRestType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTupleType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypePredicate"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeQuery"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeOperator"
+            }
+          ]
+        },
+        "extendsType": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSAnyKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSArrayType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConditionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConstructorType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSFunctionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSImportType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSInferType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIntersectionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSMappedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSOptionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSParenthesizedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSRestType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTupleType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypePredicate"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeQuery"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeOperator"
+            }
+          ]
+        },
+        "trueType": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSAnyKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSArrayType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConditionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConstructorType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSFunctionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSImportType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSInferType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIntersectionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSMappedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSOptionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSParenthesizedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSRestType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTupleType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypePredicate"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeQuery"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeOperator"
+            }
+          ]
+        },
+        "falseType": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSAnyKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSArrayType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConditionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConstructorType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSFunctionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSImportType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSInferType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIntersectionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSMappedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSOptionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSParenthesizedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSRestType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTupleType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypePredicate"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeQuery"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeOperator"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "checkType",
+        "end",
+        "extendsType",
+        "falseType",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "trueType",
+        "type"
+      ]
+    },
+    "babel.types.TSConstructorType": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSConstructorType"
+          ]
+        },
+        "typeParameters": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSTypeParameterDeclaration"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "parameters": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/babel.types.Identifier"
+              },
+              {
+                "$ref": "#/definitions/babel.types.RestElement"
+              }
+            ]
+          }
+        },
+        "typeAnnotation": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAnnotation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "parameters",
+        "start",
+        "trailingComments",
+        "type",
+        "typeAnnotation",
+        "typeParameters"
+      ]
+    },
+    "babel.types.TSTypeParameterDeclaration": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSTypeParameterDeclaration"
+          ]
+        },
+        "params": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/babel.types.TSTypeParameter"
+          }
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "params",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSTypeParameter": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSTypeParameter"
+          ]
+        },
+        "constraint": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSAnyKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSArrayType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConditionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConstructorType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSFunctionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSImportType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSInferType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIntersectionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSMappedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSOptionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSParenthesizedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSRestType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTupleType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypePredicate"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeQuery"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeOperator"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "default": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSAnyKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSArrayType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConditionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConstructorType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSFunctionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSImportType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSInferType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIntersectionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSMappedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSOptionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSParenthesizedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSRestType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTupleType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypePredicate"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeQuery"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeOperator"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "constraint",
+        "default",
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "name",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSExpressionWithTypeArguments": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSExpressionWithTypeArguments"
+          ]
+        },
+        "expression": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSQualifiedName"
+            }
+          ]
+        },
+        "typeParameters": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSTypeParameterInstantiation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "expression",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "typeParameters"
+      ]
+    },
+    "babel.types.TSQualifiedName": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSQualifiedName"
+          ]
+        },
+        "left": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSQualifiedName"
+            }
+          ]
+        },
+        "right": {
+          "$ref": "#/definitions/babel.types.Identifier"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "left",
+        "loc",
+        "right",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSTypeParameterInstantiation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSTypeParameterInstantiation"
+          ]
+        },
+        "params": {
           "type": "array",
           "items": {
             "anyOf": [
@@ -24665,10 +17583,43 @@ export default {
                 "$ref": "#/definitions/babel.types.TSArrayType"
               },
               {
+                "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+              },
+              {
                 "$ref": "#/definitions/babel.types.TSBigIntKeyword"
               },
               {
-                "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+                "$ref": "#/definitions/babel.types.TSNeverKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSNullKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSNumberKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSObjectKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSStringKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSVoidKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSThisType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSLiteralType"
               },
               {
                 "$ref": "#/definitions/babel.types.TSConditionalType"
@@ -24695,10 +17646,1059 @@ export default {
                 "$ref": "#/definitions/babel.types.TSIntersectionType"
               },
               {
-                "$ref": "#/definitions/babel.types.TSLiteralType"
+                "$ref": "#/definitions/babel.types.TSMappedType"
               },
               {
-                "$ref": "#/definitions/babel.types.TSMappedType"
+                "$ref": "#/definitions/babel.types.TSOptionalType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSParenthesizedType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSRestType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTupleType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTypeReference"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTypePredicate"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTypeQuery"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTypeLiteral"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSUnionType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTypeOperator"
+              }
+            ]
+          }
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "params",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSFunctionType": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSFunctionType"
+          ]
+        },
+        "typeParameters": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSTypeParameterDeclaration"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "parameters": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/babel.types.Identifier"
+              },
+              {
+                "$ref": "#/definitions/babel.types.RestElement"
+              }
+            ]
+          }
+        },
+        "typeAnnotation": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAnnotation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "parameters",
+        "start",
+        "trailingComments",
+        "type",
+        "typeAnnotation",
+        "typeParameters"
+      ]
+    },
+    "babel.types.TSTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSTypeAnnotation"
+          ]
+        },
+        "typeAnnotation": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSAnyKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSArrayType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConditionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConstructorType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSFunctionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSImportType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSInferType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIntersectionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSMappedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSOptionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSParenthesizedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSRestType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTupleType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypePredicate"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeQuery"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeOperator"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "typeAnnotation"
+      ]
+    },
+    "babel.types.TSImportType": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSImportType"
+          ]
+        },
+        "argument": {
+          "$ref": "#/definitions/babel.types.StringLiteral"
+        },
+        "qualifier": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSQualifiedName"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "typeParameters": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSTypeParameterInstantiation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "argument",
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "qualifier",
+        "start",
+        "trailingComments",
+        "type",
+        "typeParameters"
+      ]
+    },
+    "babel.types.TSIndexedAccessType": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSIndexedAccessType"
+          ]
+        },
+        "objectType": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSAnyKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSArrayType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConditionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConstructorType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSFunctionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSImportType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSInferType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIntersectionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSMappedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSOptionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSParenthesizedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSRestType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTupleType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypePredicate"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeQuery"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeOperator"
+            }
+          ]
+        },
+        "indexType": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSAnyKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSArrayType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConditionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConstructorType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSFunctionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSImportType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSInferType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIntersectionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSMappedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSOptionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSParenthesizedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSRestType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTupleType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypePredicate"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeQuery"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeOperator"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "indexType",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "objectType",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSInferType": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSInferType"
+          ]
+        },
+        "typeParameter": {
+          "$ref": "#/definitions/babel.types.TSTypeParameter"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "typeParameter"
+      ]
+    },
+    "babel.types.TSIntersectionType": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSIntersectionType"
+          ]
+        },
+        "types": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/babel.types.TSAnyKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSArrayType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSBigIntKeyword"
               },
               {
                 "$ref": "#/definitions/babel.types.TSNeverKeyword"
@@ -24713,25 +18713,10 @@ export default {
                 "$ref": "#/definitions/babel.types.TSObjectKeyword"
               },
               {
-                "$ref": "#/definitions/babel.types.TSOptionalType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSParenthesizedType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSRestType"
-              },
-              {
                 "$ref": "#/definitions/babel.types.TSStringKeyword"
               },
               {
                 "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSThisType"
-              },
-              {
-                "$ref": "#/definitions/babel.types.TSTupleType"
               },
               {
                 "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
@@ -24741,6 +18726,3402 @@ export default {
               },
               {
                 "$ref": "#/definitions/babel.types.TSVoidKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSThisType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSLiteralType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSConditionalType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSConstructorType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSFunctionType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSImportType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSIndexedAccessType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSInferType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSIntersectionType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSMappedType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSOptionalType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSParenthesizedType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSRestType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTupleType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTypeReference"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTypePredicate"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTypeQuery"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTypeLiteral"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSUnionType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTypeOperator"
+              }
+            ]
+          }
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "types"
+      ]
+    },
+    "babel.types.TSMappedType": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSMappedType"
+          ]
+        },
+        "typeParameter": {
+          "$ref": "#/definitions/babel.types.TSTypeParameter"
+        },
+        "typeAnnotation": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSAnyKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSArrayType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConditionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConstructorType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSFunctionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSImportType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSInferType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIntersectionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSMappedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSOptionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSParenthesizedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSRestType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTupleType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypePredicate"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeQuery"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeOperator"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "optional": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "readonly": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "optional",
+        "readonly",
+        "start",
+        "trailingComments",
+        "type",
+        "typeAnnotation",
+        "typeParameter"
+      ]
+    },
+    "babel.types.TSOptionalType": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSOptionalType"
+          ]
+        },
+        "typeAnnotation": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSAnyKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSArrayType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConditionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConstructorType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSFunctionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSImportType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSInferType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIntersectionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSMappedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSOptionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSParenthesizedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSRestType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTupleType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypePredicate"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeQuery"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeOperator"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "typeAnnotation"
+      ]
+    },
+    "babel.types.TSParenthesizedType": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSParenthesizedType"
+          ]
+        },
+        "typeAnnotation": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSAnyKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSArrayType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConditionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConstructorType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSFunctionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSImportType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSInferType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIntersectionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSMappedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSOptionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSParenthesizedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSRestType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTupleType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypePredicate"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeQuery"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeOperator"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "typeAnnotation"
+      ]
+    },
+    "babel.types.TSRestType": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSRestType"
+          ]
+        },
+        "typeAnnotation": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSAnyKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSArrayType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConditionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConstructorType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSFunctionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSImportType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSInferType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIntersectionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSMappedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSOptionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSParenthesizedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSRestType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTupleType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypePredicate"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeQuery"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeOperator"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "typeAnnotation"
+      ]
+    },
+    "babel.types.TSTupleType": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSTupleType"
+          ]
+        },
+        "elementTypes": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/babel.types.TSAnyKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSArrayType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSBigIntKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSNeverKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSNullKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSNumberKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSObjectKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSStringKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSVoidKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSThisType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSLiteralType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSConditionalType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSConstructorType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSFunctionType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSImportType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSIndexedAccessType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSInferType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSIntersectionType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSMappedType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSNamedTupleMember"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSOptionalType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSParenthesizedType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSRestType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTupleType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTypeReference"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTypePredicate"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTypeQuery"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTypeLiteral"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSUnionType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTypeOperator"
+              }
+            ]
+          }
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "elementTypes",
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSNamedTupleMember": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSNamedTupleMember"
+          ]
+        },
+        "label": {
+          "$ref": "#/definitions/babel.types.Identifier"
+        },
+        "elementType": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSAnyKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSArrayType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSBigIntKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConditionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSConstructorType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSFunctionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSImportType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIndexedAccessType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSInferType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSIntersectionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSMappedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSOptionalType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSParenthesizedType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSRestType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTupleType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypePredicate"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeQuery"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnionType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeOperator"
+            }
+          ]
+        },
+        "optional": {
+          "type": "boolean"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "elementType",
+        "end",
+        "innerComments",
+        "label",
+        "leadingComments",
+        "loc",
+        "optional",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSTypeReference": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSTypeReference"
+          ]
+        },
+        "typeName": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSQualifiedName"
+            }
+          ]
+        },
+        "typeParameters": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSTypeParameterInstantiation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "typeName",
+        "typeParameters"
+      ]
+    },
+    "babel.types.TSTypePredicate": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSTypePredicate"
+          ]
+        },
+        "parameterName": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            }
+          ]
+        },
+        "typeAnnotation": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAnnotation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "asserts": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "asserts",
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "parameterName",
+        "start",
+        "trailingComments",
+        "type",
+        "typeAnnotation"
+      ]
+    },
+    "babel.types.TSTypeQuery": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSTypeQuery"
+          ]
+        },
+        "exprName": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSQualifiedName"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSImportType"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "exprName",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSTypeLiteral": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSTypeLiteral"
+          ]
+        },
+        "members": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/babel.types.TSCallSignatureDeclaration"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSConstructSignatureDeclaration"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSIndexSignature"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSMethodSignature"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSPropertySignature"
+              }
+            ]
+          }
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "members",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSCallSignatureDeclaration": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSCallSignatureDeclaration"
+          ]
+        },
+        "typeParameters": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSTypeParameterDeclaration"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "parameters": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/babel.types.Identifier"
+              },
+              {
+                "$ref": "#/definitions/babel.types.RestElement"
+              }
+            ]
+          }
+        },
+        "typeAnnotation": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAnnotation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "parameters",
+        "start",
+        "trailingComments",
+        "type",
+        "typeAnnotation",
+        "typeParameters"
+      ]
+    },
+    "babel.types.TSConstructSignatureDeclaration": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSConstructSignatureDeclaration"
+          ]
+        },
+        "typeParameters": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSTypeParameterDeclaration"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "parameters": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/babel.types.Identifier"
+              },
+              {
+                "$ref": "#/definitions/babel.types.RestElement"
+              }
+            ]
+          }
+        },
+        "typeAnnotation": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAnnotation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "parameters",
+        "start",
+        "trailingComments",
+        "type",
+        "typeAnnotation",
+        "typeParameters"
+      ]
+    },
+    "babel.types.TSIndexSignature": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSIndexSignature"
+          ]
+        },
+        "parameters": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/babel.types.Identifier"
+          }
+        },
+        "typeAnnotation": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAnnotation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "readonly": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "parameters",
+        "readonly",
+        "start",
+        "trailingComments",
+        "type",
+        "typeAnnotation"
+      ]
+    },
+    "babel.types.TSMethodSignature": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSMethodSignature"
+          ]
+        },
+        "key": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.ArrayExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AssignmentExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AwaitExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BigIntLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BinaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.LogicalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BindExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.CallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ClassExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ConditionalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DoExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumericLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RegExpLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NewExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SequenceExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ParenthesizedExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UpdateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MetaProperty"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Super"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TemplateLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.YieldExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeCastExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXElement"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXFragment"
+            },
+            {
+              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RecordExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSAsExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAssertion"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNonNullExpression"
+            }
+          ]
+        },
+        "typeParameters": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSTypeParameterDeclaration"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "parameters": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/babel.types.Identifier"
+              },
+              {
+                "$ref": "#/definitions/babel.types.RestElement"
+              }
+            ]
+          }
+        },
+        "typeAnnotation": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAnnotation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "computed": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "optional": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "computed",
+        "end",
+        "innerComments",
+        "key",
+        "leadingComments",
+        "loc",
+        "optional",
+        "parameters",
+        "start",
+        "trailingComments",
+        "type",
+        "typeAnnotation",
+        "typeParameters"
+      ]
+    },
+    "babel.types.TSNonNullExpression": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSNonNullExpression"
+          ]
+        },
+        "expression": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.ArrayExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AssignmentExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AwaitExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BigIntLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BinaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.LogicalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BindExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.CallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ClassExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ConditionalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DoExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumericLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RegExpLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NewExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SequenceExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ParenthesizedExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UpdateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MetaProperty"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Super"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TemplateLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.YieldExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeCastExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXElement"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXFragment"
+            },
+            {
+              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RecordExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSAsExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAssertion"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNonNullExpression"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "expression",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TSPropertySignature": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSPropertySignature"
+          ]
+        },
+        "key": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.ArrayExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AssignmentExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AwaitExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BigIntLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BinaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.LogicalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BindExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.CallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ClassExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ConditionalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DoExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumericLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RegExpLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NewExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SequenceExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ParenthesizedExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UpdateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MetaProperty"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Super"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TemplateLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.YieldExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeCastExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXElement"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXFragment"
+            },
+            {
+              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RecordExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSAsExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAssertion"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNonNullExpression"
+            }
+          ]
+        },
+        "typeAnnotation": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAnnotation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "initializer": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.ArrayExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AssignmentExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.AwaitExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BigIntLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BinaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.LogicalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BindExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.CallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ClassExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ConditionalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DoExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumericLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RegExpLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NewExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SequenceExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ParenthesizedExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnaryExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UpdateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MetaProperty"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Super"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TemplateLiteral"
+            },
+            {
+              "$ref": "#/definitions/babel.types.YieldExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeCastExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXElement"
+            },
+            {
+              "$ref": "#/definitions/babel.types.JSXFragment"
+            },
+            {
+              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
+            },
+            {
+              "$ref": "#/definitions/babel.types.RecordExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSAsExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAssertion"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNonNullExpression"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "computed": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "optional": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "readonly": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "computed",
+        "end",
+        "initializer",
+        "innerComments",
+        "key",
+        "leadingComments",
+        "loc",
+        "optional",
+        "readonly",
+        "start",
+        "trailingComments",
+        "type",
+        "typeAnnotation"
+      ]
+    },
+    "babel.types.TSUnionType": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TSUnionType"
+          ]
+        },
+        "types": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/babel.types.TSAnyKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSArrayType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSBigIntKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSNeverKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSNullKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSNumberKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSObjectKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSStringKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSVoidKeyword"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSThisType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSLiteralType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSConditionalType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSConstructorType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSExpressionWithTypeArguments"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSFunctionType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSImportType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSIndexedAccessType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSInferType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSIntersectionType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSMappedType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSOptionalType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSParenthesizedType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSRestType"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TSTupleType"
               },
               {
                 "$ref": "#/definitions/babel.types.TSTypeReference"
@@ -24875,10 +22256,43 @@ export default {
               "$ref": "#/definitions/babel.types.TSArrayType"
             },
             {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
               "$ref": "#/definitions/babel.types.TSBigIntKeyword"
             },
             {
-              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
             },
             {
               "$ref": "#/definitions/babel.types.TSConditionalType"
@@ -24905,22 +22319,7 @@ export default {
               "$ref": "#/definitions/babel.types.TSIntersectionType"
             },
             {
-              "$ref": "#/definitions/babel.types.TSLiteralType"
-            },
-            {
               "$ref": "#/definitions/babel.types.TSMappedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNeverKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNullKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNumberKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSObjectKeyword"
             },
             {
               "$ref": "#/definitions/babel.types.TSOptionalType"
@@ -24932,25 +22331,7 @@ export default {
               "$ref": "#/definitions/babel.types.TSRestType"
             },
             {
-              "$ref": "#/definitions/babel.types.TSStringKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            },
-            {
               "$ref": "#/definitions/babel.types.TSTupleType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSVoidKeyword"
             },
             {
               "$ref": "#/definitions/babel.types.TSTypeReference"
@@ -24973,10 +22354,7 @@ export default {
           ]
         },
         "operator": {
-          "type": [
-            "null",
-            "string"
-          ]
+          "type": "string"
         },
         "leadingComments": {
           "anyOf": [
@@ -25071,472 +22449,6 @@ export default {
         "trailingComments",
         "type",
         "typeAnnotation"
-      ]
-    },
-    "babel.types.TSNonNullExpression": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "TSNonNullExpression"
-          ]
-        },
-        "expression": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.ArrayExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.AssignmentExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.AwaitExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BigIntLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BinaryExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.LogicalExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BindExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.CallExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ClassExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ConditionalExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.DoExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumericLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.RegExpLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MemberExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NewExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.SequenceExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ParenthesizedExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnaryExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UpdateExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MetaProperty"
-            },
-            {
-              "$ref": "#/definitions/babel.types.Super"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TemplateLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.YieldExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeCastExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.JSXElement"
-            },
-            {
-              "$ref": "#/definitions/babel.types.JSXFragment"
-            },
-            {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.Import"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSAsExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeAssertion"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNonNullExpression"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "end",
-        "expression",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
-      ]
-    },
-    "babel.types.SpreadElement": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "SpreadElement"
-          ]
-        },
-        "argument": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.ArrayExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.AssignmentExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.AwaitExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BigIntLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BinaryExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.LogicalExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BindExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.CallExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ClassExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ConditionalExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.DoExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumericLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.RegExpLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MemberExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NewExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.SequenceExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ParenthesizedExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnaryExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UpdateExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MetaProperty"
-            },
-            {
-              "$ref": "#/definitions/babel.types.Super"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TemplateLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.YieldExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeCastExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.JSXElement"
-            },
-            {
-              "$ref": "#/definitions/babel.types.JSXFragment"
-            },
-            {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.Import"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSAsExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeAssertion"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNonNullExpression"
-            }
-          ]
-        },
-        "leadingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "innerComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "trailingComments": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/definitions/babel.types.CommentBlock"
-                  },
-                  {
-                    "$ref": "#/definitions/babel.types.CommentLine"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "start": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "end": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "loc": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.SourceLocation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "required": [
-        "argument",
-        "end",
-        "innerComments",
-        "leadingComments",
-        "loc",
-        "start",
-        "trailingComments",
-        "type"
       ]
     },
     "babel.types.JSXEmptyExpression": {
@@ -25692,6 +22604,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -25749,6 +22664,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -25758,16 +22682,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -26031,6 +22952,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -26088,6 +23012,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -26097,16 +23030,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -26211,6 +23141,5437 @@ export default {
         "start",
         "trailingComments",
         "type"
+      ]
+    },
+    "babel.types.TypeParameterInstantiation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TypeParameterInstantiation"
+          ]
+        },
+        "params": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
+              }
+            ]
+          }
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "params",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.AnyTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "AnyTypeAnnotation"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.ArrayTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "ArrayTypeAnnotation"
+          ]
+        },
+        "elementType": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "elementType",
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.BooleanLiteralTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "BooleanLiteralTypeAnnotation"
+          ]
+        },
+        "value": {
+          "type": "boolean"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "value"
+      ]
+    },
+    "babel.types.BooleanTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "BooleanTypeAnnotation"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.EmptyTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "EmptyTypeAnnotation"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.ExistsTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "ExistsTypeAnnotation"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.NullLiteralTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "NullLiteralTypeAnnotation"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.FunctionTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "FunctionTypeAnnotation"
+          ]
+        },
+        "typeParameters": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TypeParameterDeclaration"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "params": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/babel.types.FunctionTypeParam"
+          }
+        },
+        "rest": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.FunctionTypeParam"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "returnType": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "params",
+        "rest",
+        "returnType",
+        "start",
+        "trailingComments",
+        "type",
+        "typeParameters"
+      ]
+    },
+    "babel.types.TypeParameterDeclaration": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TypeParameterDeclaration"
+          ]
+        },
+        "params": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/babel.types.TypeParameter"
+          }
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "params",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TypeParameter": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TypeParameter"
+          ]
+        },
+        "bound": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TypeAnnotation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "default": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "variance": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.Variance"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "bound",
+        "default",
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "name",
+        "start",
+        "trailingComments",
+        "type",
+        "variance"
+      ]
+    },
+    "babel.types.TypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TypeAnnotation"
+          ]
+        },
+        "typeAnnotation": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "typeAnnotation"
+      ]
+    },
+    "babel.types.GenericTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "GenericTypeAnnotation"
+          ]
+        },
+        "id": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.QualifiedTypeIdentifier"
+            }
+          ]
+        },
+        "typeParameters": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TypeParameterInstantiation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "id",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "typeParameters"
+      ]
+    },
+    "babel.types.QualifiedTypeIdentifier": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "QualifiedTypeIdentifier"
+          ]
+        },
+        "id": {
+          "$ref": "#/definitions/babel.types.Identifier"
+        },
+        "qualification": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.QualifiedTypeIdentifier"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "id",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "qualification",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.InterfaceTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "InterfaceTypeAnnotation"
+          ]
+        },
+        "extends": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/babel.types.InterfaceExtends"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "body": {
+          "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "body",
+        "end",
+        "extends",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.InterfaceExtends": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "InterfaceExtends"
+          ]
+        },
+        "id": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.QualifiedTypeIdentifier"
+            }
+          ]
+        },
+        "typeParameters": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TypeParameterInstantiation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "id",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "typeParameters"
+      ]
+    },
+    "babel.types.ObjectTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "ObjectTypeAnnotation"
+          ]
+        },
+        "properties": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/babel.types.ObjectTypeProperty"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ObjectTypeSpreadProperty"
+              }
+            ]
+          }
+        },
+        "indexers": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/babel.types.ObjectTypeIndexer"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "callProperties": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/babel.types.ObjectTypeCallProperty"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "internalSlots": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/babel.types.ObjectTypeInternalSlot"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "exact": {
+          "type": "boolean"
+        },
+        "inexact": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "callProperties",
+        "end",
+        "exact",
+        "indexers",
+        "inexact",
+        "innerComments",
+        "internalSlots",
+        "leadingComments",
+        "loc",
+        "properties",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.ObjectTypeProperty": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "ObjectTypeProperty"
+          ]
+        },
+        "key": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteral"
+            }
+          ]
+        },
+        "value": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
+            }
+          ]
+        },
+        "variance": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.Variance"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "kind": {
+          "enum": [
+            "get",
+            "init",
+            "set"
+          ],
+          "type": "string"
+        },
+        "optional": {
+          "type": "boolean"
+        },
+        "proto": {
+          "type": "boolean"
+        },
+        "static": {
+          "type": "boolean"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "key",
+        "kind",
+        "leadingComments",
+        "loc",
+        "optional",
+        "proto",
+        "start",
+        "static",
+        "trailingComments",
+        "type",
+        "value",
+        "variance"
+      ]
+    },
+    "babel.types.IntersectionTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "IntersectionTypeAnnotation"
+          ]
+        },
+        "types": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
+              }
+            ]
+          }
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "types"
+      ]
+    },
+    "babel.types.MixedTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "MixedTypeAnnotation"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.NullableTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "NullableTypeAnnotation"
+          ]
+        },
+        "typeAnnotation": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "typeAnnotation"
+      ]
+    },
+    "babel.types.NumberLiteralTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "NumberLiteralTypeAnnotation"
+          ]
+        },
+        "value": {
+          "type": "number"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "value"
+      ]
+    },
+    "babel.types.NumberTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "NumberTypeAnnotation"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.StringLiteralTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "StringLiteralTypeAnnotation"
+          ]
+        },
+        "value": {
+          "type": "string"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "value"
+      ]
+    },
+    "babel.types.StringTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "StringTypeAnnotation"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.SymbolTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "SymbolTypeAnnotation"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.ThisTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "ThisTypeAnnotation"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.TupleTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TupleTypeAnnotation"
+          ]
+        },
+        "types": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
+              }
+            ]
+          }
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "types"
+      ]
+    },
+    "babel.types.TypeofTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "TypeofTypeAnnotation"
+          ]
+        },
+        "argument": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "argument",
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.UnionTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "UnionTypeAnnotation"
+          ]
+        },
+        "types": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
+              },
+              {
+                "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
+              }
+            ]
+          }
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type",
+        "types"
+      ]
+    },
+    "babel.types.VoidTypeAnnotation": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "VoidTypeAnnotation"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.Variance": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "Variance"
+          ]
+        },
+        "kind": {
+          "enum": [
+            "minus",
+            "plus"
+          ],
+          "type": "string"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "kind",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.ObjectTypeSpreadProperty": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "ObjectTypeSpreadProperty"
+          ]
+        },
+        "argument": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "argument",
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.ObjectTypeIndexer": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "ObjectTypeIndexer"
+          ]
+        },
+        "id": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "key": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
+            }
+          ]
+        },
+        "value": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
+            }
+          ]
+        },
+        "variance": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.Variance"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "static": {
+          "type": "boolean"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "id",
+        "innerComments",
+        "key",
+        "leadingComments",
+        "loc",
+        "start",
+        "static",
+        "trailingComments",
+        "type",
+        "value",
+        "variance"
+      ]
+    },
+    "babel.types.ObjectTypeCallProperty": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "ObjectTypeCallProperty"
+          ]
+        },
+        "value": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
+            }
+          ]
+        },
+        "static": {
+          "type": "boolean"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "static",
+        "trailingComments",
+        "type",
+        "value"
+      ]
+    },
+    "babel.types.ObjectTypeInternalSlot": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "ObjectTypeInternalSlot"
+          ]
+        },
+        "id": {
+          "$ref": "#/definitions/babel.types.Identifier"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
+            }
+          ]
+        },
+        "optional": {
+          "type": "boolean"
+        },
+        "static": {
+          "type": "boolean"
+        },
+        "method": {
+          "type": "boolean"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "id",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "method",
+        "optional",
+        "start",
+        "static",
+        "trailingComments",
+        "type",
+        "value"
+      ]
+    },
+    "babel.types.FunctionTypeParam": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "FunctionTypeParam"
+          ]
+        },
+        "name": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "typeAnnotation": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.AnyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ArrayTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.BooleanTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EmptyTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ExistsTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.FunctionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.GenericTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.InterfaceTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.IntersectionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.MixedTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NullableTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.NumberTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringLiteralTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TupleTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TypeofTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.UnionTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.VoidTypeAnnotation"
+            }
+          ]
+        },
+        "optional": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "name",
+        "optional",
+        "start",
+        "trailingComments",
+        "type",
+        "typeAnnotation"
       ]
     },
     "babel.types.JSXClosingElement": {
@@ -26329,304 +28690,13 @@ export default {
         "type"
       ]
     },
-    "babel.types.TSPropertySignature": {
+    "babel.types.Noop": {
       "type": "object",
       "properties": {
         "type": {
           "type": "string",
           "enum": [
-            "TSPropertySignature"
-          ]
-        },
-        "key": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.ArrayExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.AssignmentExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.AwaitExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BigIntLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BinaryExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.LogicalExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BindExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.CallExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ClassExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ConditionalExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.DoExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumericLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.RegExpLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MemberExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NewExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.SequenceExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ParenthesizedExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnaryExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UpdateExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MetaProperty"
-            },
-            {
-              "$ref": "#/definitions/babel.types.Super"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TemplateLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.YieldExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeCastExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.JSXElement"
-            },
-            {
-              "$ref": "#/definitions/babel.types.JSXFragment"
-            },
-            {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.Import"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSAsExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeAssertion"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNonNullExpression"
-            }
-          ]
-        },
-        "typeAnnotation": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.TSTypeAnnotation"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "initializer": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.ArrayExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ArrowFunctionExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.AssignmentExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.AwaitExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BigIntLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BinaryExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.LogicalExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BindExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.FunctionExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.BooleanLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.CallExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ClassExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ConditionalExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.DoExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "$ref": "#/definitions/babel.types.StringLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NumericLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NullLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.RegExpLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MemberExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.NewExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ObjectExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.SequenceExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ParenthesizedExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.ThisExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UnaryExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.UpdateExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.MetaProperty"
-            },
-            {
-              "$ref": "#/definitions/babel.types.Super"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TaggedTemplateExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TemplateLiteral"
-            },
-            {
-              "$ref": "#/definitions/babel.types.YieldExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TypeCastExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.JSXElement"
-            },
-            {
-              "$ref": "#/definitions/babel.types.JSXFragment"
-            },
-            {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
-            },
-            {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.Import"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSAsExpression"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSTypeAssertion"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNonNullExpression"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "computed": {
-          "type": [
-            "null",
-            "boolean"
-          ]
-        },
-        "optional": {
-          "type": [
-            "null",
-            "boolean"
-          ]
-        },
-        "readonly": {
-          "type": [
-            "null",
-            "boolean"
+            "Noop"
           ]
         },
         "leadingComments": {
@@ -26713,19 +28783,13 @@ export default {
         }
       },
       "required": [
-        "computed",
         "end",
-        "initializer",
         "innerComments",
-        "key",
         "leadingComments",
         "loc",
-        "optional",
-        "readonly",
         "start",
         "trailingComments",
-        "type",
-        "typeAnnotation"
+        "type"
       ]
     },
     "babel.types.V8IntrinsicIdentifier": {
@@ -27124,6 +29188,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -27181,6 +29248,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -27190,16 +29266,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -27246,6 +29319,12 @@ export default {
         "static": {
           "type": "boolean"
         },
+        "generator": {
+          "type": "boolean"
+        },
+        "async": {
+          "type": "boolean"
+        },
         "abstract": {
           "type": [
             "null",
@@ -27282,9 +29361,6 @@ export default {
             }
           ]
         },
-        "async": {
-          "type": "boolean"
-        },
         "decorators": {
           "anyOf": [
             {
@@ -27297,9 +29373,6 @@ export default {
               "type": "null"
             }
           ]
-        },
-        "generator": {
-          "type": "boolean"
         },
         "optional": {
           "type": [
@@ -27563,8 +29636,38 @@ export default {
             "boolean"
           ]
         },
-        "returnType": {},
-        "typeParameters": {},
+        "returnType": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Noop"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeAnnotation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "typeParameters": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.TypeParameterDeclaration"
+            },
+            {
+              "$ref": "#/definitions/babel.types.Noop"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSTypeParameterDeclaration"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
         "leadingComments": {
           "anyOf": [
             {
@@ -27833,6 +29936,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -27890,6 +29996,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -27899,16 +30014,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -28084,6 +30196,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -28141,6 +30256,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -28150,16 +30274,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -28214,6 +30335,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -28271,6 +30395,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -28280,16 +30413,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -28359,6 +30489,12 @@ export default {
             {
               "type": "null"
             }
+          ]
+        },
+        "declare": {
+          "type": [
+            "null",
+            "boolean"
           ]
         },
         "definite": {
@@ -28466,6 +30602,7 @@ export default {
         "abstract",
         "accessibility",
         "computed",
+        "declare",
         "decorators",
         "definite",
         "end",
@@ -28547,6 +30684,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -28604,6 +30744,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -28613,16 +30762,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -29052,6 +31198,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -29109,6 +31258,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -29118,16 +31276,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -29240,6 +31395,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.TypeAlias"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EnumDeclaration"
             },
             {
               "$ref": "#/definitions/babel.types.TSDeclareFunction"
@@ -29579,6 +31737,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -29636,6 +31797,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -29645,16 +31815,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -29823,6 +31990,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.VariableDeclaration"
             },
             {
@@ -29883,6 +32053,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -29892,16 +32071,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -29959,6 +32135,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -30016,6 +32195,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -30025,16 +32213,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -30092,6 +32277,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -30149,6 +32337,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -30158,16 +32355,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -30283,6 +32477,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.TypeAlias"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EnumDeclaration"
             },
             {
               "$ref": "#/definitions/babel.types.TSDeclareFunction"
@@ -30665,6 +32862,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -30722,6 +32922,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -30731,16 +32940,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -30905,6 +33111,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -30962,6 +33171,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -30971,16 +33189,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -31098,6 +33313,9 @@ export default {
               },
               {
                 "$ref": "#/definitions/babel.types.TypeAlias"
+              },
+              {
+                "$ref": "#/definitions/babel.types.EnumDeclaration"
               },
               {
                 "$ref": "#/definitions/babel.types.TSDeclareFunction"
@@ -31287,6 +33505,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -31344,6 +33565,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -31353,16 +33583,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -31475,6 +33702,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.TypeAlias"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EnumDeclaration"
             },
             {
               "$ref": "#/definitions/babel.types.TSDeclareFunction"
@@ -31691,6 +33921,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -31748,6 +33981,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -31757,16 +33999,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -31879,6 +34118,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.TypeAlias"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EnumDeclaration"
             },
             {
               "$ref": "#/definitions/babel.types.TSDeclareFunction"
@@ -32144,14 +34386,7 @@ export default {
           ]
         },
         "id": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/babel.types.Identifier"
-            },
-            {
-              "type": "null"
-            }
-          ]
+          "$ref": "#/definitions/babel.types.Identifier"
         },
         "superClass": {
           "anyOf": [
@@ -32193,6 +34428,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
             },
             {
               "$ref": "#/definitions/babel.types.DoExpression"
@@ -32252,6 +34490,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -32261,16 +34508,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -32334,7 +34578,16 @@ export default {
             }
           ]
         },
-        "mixins": {},
+        "mixins": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.InterfaceExtends"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
         "superTypeParameters": {
           "anyOf": [
             {
@@ -32631,6 +34884,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -32688,6 +34944,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -32697,16 +34962,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -32867,6 +35129,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -32924,6 +35189,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -32933,16 +35207,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -33100,6 +35371,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -33157,6 +35431,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -33166,16 +35449,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -33288,6 +35568,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.TypeAlias"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EnumDeclaration"
             },
             {
               "$ref": "#/definitions/babel.types.TSDeclareFunction"
@@ -33430,6 +35713,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.TypeAlias"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EnumDeclaration"
             },
             {
               "$ref": "#/definitions/babel.types.TSDeclareFunction"
@@ -33827,13 +36113,16 @@ export default {
               "$ref": "#/definitions/babel.types.CallExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.ClassDeclaration"
-            },
-            {
               "$ref": "#/definitions/babel.types.ClassExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.ClassDeclaration"
+            },
+            {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
             },
             {
               "$ref": "#/definitions/babel.types.TSDeclareFunction"
@@ -33896,6 +36185,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -33905,16 +36203,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -34273,6 +36568,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.TypeAlias"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EnumDeclaration"
             },
             {
               "$ref": "#/definitions/babel.types.TSDeclareFunction"
@@ -35328,6 +37626,9 @@ export default {
               "$ref": "#/definitions/babel.types.StringTypeAnnotation"
             },
             {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+            },
+            {
               "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
             },
             {
@@ -35933,6 +38234,9 @@ export default {
               "$ref": "#/definitions/babel.types.StringTypeAnnotation"
             },
             {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+            },
+            {
               "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
             },
             {
@@ -36122,6 +38426,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
             },
             {
               "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
@@ -36484,6 +38791,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
             },
             {
               "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
@@ -37016,6 +39326,9 @@ export default {
               "$ref": "#/definitions/babel.types.StringTypeAnnotation"
             },
             {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
+            },
+            {
               "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
             },
             {
@@ -37090,6 +39403,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
             },
             {
               "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
@@ -37282,6 +39598,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.StringTypeAnnotation"
+            },
+            {
+              "$ref": "#/definitions/babel.types.SymbolTypeAnnotation"
             },
             {
               "$ref": "#/definitions/babel.types.ThisTypeAnnotation"
@@ -37714,6 +40033,1020 @@ export default {
         "type"
       ]
     },
+    "babel.types.EnumDeclaration": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "EnumDeclaration"
+          ]
+        },
+        "id": {
+          "$ref": "#/definitions/babel.types.Identifier"
+        },
+        "body": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.EnumBooleanBody"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EnumNumberBody"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EnumStringBody"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EnumSymbolBody"
+            }
+          ]
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "body",
+        "end",
+        "id",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.EnumBooleanBody": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "EnumBooleanBody"
+          ]
+        },
+        "members": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/babel.types.EnumBooleanMember"
+          }
+        },
+        "explicit": {
+          "type": "boolean"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "explicit",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "members",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.EnumBooleanMember": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "EnumBooleanMember"
+          ]
+        },
+        "id": {
+          "$ref": "#/definitions/babel.types.Identifier"
+        },
+        "init": {
+          "$ref": "#/definitions/babel.types.BooleanLiteral"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "id",
+        "init",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.EnumNumberBody": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "EnumNumberBody"
+          ]
+        },
+        "members": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/babel.types.EnumNumberMember"
+          }
+        },
+        "explicit": {
+          "type": "boolean"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "explicit",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "members",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.EnumNumberMember": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "EnumNumberMember"
+          ]
+        },
+        "id": {
+          "$ref": "#/definitions/babel.types.Identifier"
+        },
+        "init": {
+          "$ref": "#/definitions/babel.types.NumericLiteral"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "id",
+        "init",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.EnumStringBody": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "EnumStringBody"
+          ]
+        },
+        "members": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/babel.types.EnumDefaultedMember"
+              },
+              {
+                "$ref": "#/definitions/babel.types.EnumStringMember"
+              }
+            ]
+          }
+        },
+        "explicit": {
+          "type": "boolean"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "explicit",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "members",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.EnumDefaultedMember": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "EnumDefaultedMember"
+          ]
+        },
+        "id": {
+          "$ref": "#/definitions/babel.types.Identifier"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "id",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.EnumStringMember": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "EnumStringMember"
+          ]
+        },
+        "id": {
+          "$ref": "#/definitions/babel.types.Identifier"
+        },
+        "init": {
+          "$ref": "#/definitions/babel.types.StringLiteral"
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "id",
+        "init",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
+    "babel.types.EnumSymbolBody": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "EnumSymbolBody"
+          ]
+        },
+        "members": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/babel.types.EnumDefaultedMember"
+          }
+        },
+        "leadingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "innerComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trailingComments": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/babel.types.CommentBlock"
+                  },
+                  {
+                    "$ref": "#/definitions/babel.types.CommentLine"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "end": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "loc": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/babel.types.SourceLocation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "innerComments",
+        "leadingComments",
+        "loc",
+        "members",
+        "start",
+        "trailingComments",
+        "type"
+      ]
+    },
     "babel.types.TSInterfaceDeclaration": {
       "type": "object",
       "properties": {
@@ -38012,10 +41345,43 @@ export default {
               "$ref": "#/definitions/babel.types.TSArrayType"
             },
             {
+              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+            },
+            {
               "$ref": "#/definitions/babel.types.TSBigIntKeyword"
             },
             {
-              "$ref": "#/definitions/babel.types.TSBooleanKeyword"
+              "$ref": "#/definitions/babel.types.TSNeverKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNullKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSNumberKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSObjectKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSStringKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSVoidKeyword"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSThisType"
+            },
+            {
+              "$ref": "#/definitions/babel.types.TSLiteralType"
             },
             {
               "$ref": "#/definitions/babel.types.TSConditionalType"
@@ -38042,22 +41408,7 @@ export default {
               "$ref": "#/definitions/babel.types.TSIntersectionType"
             },
             {
-              "$ref": "#/definitions/babel.types.TSLiteralType"
-            },
-            {
               "$ref": "#/definitions/babel.types.TSMappedType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNeverKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNullKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSNumberKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSObjectKeyword"
             },
             {
               "$ref": "#/definitions/babel.types.TSOptionalType"
@@ -38069,25 +41420,7 @@ export default {
               "$ref": "#/definitions/babel.types.TSRestType"
             },
             {
-              "$ref": "#/definitions/babel.types.TSStringKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSSymbolKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSThisType"
-            },
-            {
               "$ref": "#/definitions/babel.types.TSTupleType"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUndefinedKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSUnknownKeyword"
-            },
-            {
-              "$ref": "#/definitions/babel.types.TSVoidKeyword"
             },
             {
               "$ref": "#/definitions/babel.types.TSTypeReference"
@@ -38284,6 +41617,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -38341,6 +41677,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -38350,16 +41695,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -38534,6 +41876,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -38591,6 +41936,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -38600,16 +41954,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -38971,6 +42322,9 @@ export default {
                 "$ref": "#/definitions/babel.types.TypeAlias"
               },
               {
+                "$ref": "#/definitions/babel.types.EnumDeclaration"
+              },
+              {
                 "$ref": "#/definitions/babel.types.TSDeclareFunction"
               },
               {
@@ -39259,6 +42613,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -39316,6 +42673,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -39325,16 +42691,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -39553,6 +42916,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.TypeAlias"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EnumDeclaration"
             },
             {
               "$ref": "#/definitions/babel.types.TSDeclareFunction"
@@ -39830,7 +43196,13 @@ export default {
         "param": {
           "anyOf": [
             {
+              "$ref": "#/definitions/babel.types.ArrayPattern"
+            },
+            {
               "$ref": "#/definitions/babel.types.Identifier"
+            },
+            {
+              "$ref": "#/definitions/babel.types.ObjectPattern"
             },
             {
               "type": "null"
@@ -39986,6 +43358,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -40043,6 +43418,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -40052,16 +43436,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
@@ -40174,6 +43555,9 @@ export default {
             },
             {
               "$ref": "#/definitions/babel.types.TypeAlias"
+            },
+            {
+              "$ref": "#/definitions/babel.types.EnumDeclaration"
             },
             {
               "$ref": "#/definitions/babel.types.TSDeclareFunction"
@@ -40337,10 +43721,7 @@ export default {
           ]
         },
         "isExport": {
-          "type": [
-            "null",
-            "boolean"
-          ]
+          "type": "boolean"
         },
         "leadingComments": {
           "anyOf": [
@@ -40595,6 +43976,9 @@ export default {
               "$ref": "#/definitions/babel.types.ConditionalExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.DecimalLiteral"
+            },
+            {
               "$ref": "#/definitions/babel.types.DoExpression"
             },
             {
@@ -40652,6 +44036,15 @@ export default {
               "$ref": "#/definitions/babel.types.YieldExpression"
             },
             {
+              "$ref": "#/definitions/babel.types.Import"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
+            },
+            {
+              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+            },
+            {
               "$ref": "#/definitions/babel.types.TypeCastExpression"
             },
             {
@@ -40661,16 +44054,13 @@ export default {
               "$ref": "#/definitions/babel.types.JSXFragment"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalMemberExpression"
-            },
-            {
               "$ref": "#/definitions/babel.types.PipelinePrimaryTopicReference"
             },
             {
-              "$ref": "#/definitions/babel.types.OptionalCallExpression"
+              "$ref": "#/definitions/babel.types.RecordExpression"
             },
             {
-              "$ref": "#/definitions/babel.types.Import"
+              "$ref": "#/definitions/babel.types.TupleExpression"
             },
             {
               "$ref": "#/definitions/babel.types.TSAsExpression"
